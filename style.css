@@ -47,7 +47,7 @@ h4 {
 }
 
 .main-container {
-    background: url("../images/background.jpg") no-repeat;
+    background: url("./images/background.jpg") no-repeat;
     background-size: cover;
     background-position: center;
     height: 100vh;
