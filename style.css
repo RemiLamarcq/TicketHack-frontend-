@@ -4,6 +4,7 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
 }
 
 /*index*/
@@ -21,7 +22,7 @@ body {
 
 #logo h3 {
     font-size: 24px;
-    font-weight: 900;
+    font-weight: 800;
 }
 
 #logo {
@@ -73,7 +74,16 @@ h1 {
     height: 350px;
 }
 
-.card {
+.card1 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.card2 {
     background-color: white;
     display: flex;
     flex-direction: column;
