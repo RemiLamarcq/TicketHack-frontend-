@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tickethack</title>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div id="logo">
+                <a href="#"><h3>Tickethack</h3></a>
+            </div>
+            <div class="right-navbar">
+                <a href="cart.html"><h4>Cart</h4></a>
+                <a href="bookings.html"><h4>Bookings</h4></a>
+            </div>
+        </div>
+
+        <div class="main-container">
+            <div class="title">
+                <h1>Explore the world effortlessly by train!</h1>
+                <p>Compare, book and enjoy cheap prices for train tickets: your journey starts on Tickethack</p>
+            </div>
+
+            <div class="cards">
+                <div class="card">
+                    <div id="labels">
+                        <label for="departure"></label>
+                        <input type="text" id="departure" name="departure" placeholder="Departure">
+                        <hr>
+                        <label for="arrival"></label>
+                        <input type="text" id="arrival" name="arrival" placeholder="Arrival">
+                    </div>
+                    
+                    <div id="date">
+                        <label for="start"></label>
+                        <input type="date" id="start" min="2018-01-01" max="2024-12-31" />     
+                    </div>
+                    
+                    <div id="button">
+                        <button type="submit">Search</button>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img id="train" src="../images/train.png" alt="" height="200px">
+                    <hr>
+                    <p>It's time to book your future trip.</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
