@@ -96,6 +96,16 @@ h1 {
     border-radius: 20px;
 }
 
+#cityCard {
+    background-color: lightgray;
+    border-radius: 10px;
+}
+
+#cityCard p {
+    margin: 10px;
+    font-size: 14px;
+}
+
 #labels {
     display: flex;
     flex-direction: column;
